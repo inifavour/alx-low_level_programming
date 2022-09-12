@@ -3,9 +3,9 @@
 #include <stdio.h>
 
 /*
- * main - lets find out if a random number is positive, negative or zero
+ * main - print whether the number stored in the variable n is positive or negative
  *
- * Return - it returns 0 successfully
+ * Return - Always 0
  */
 int main(void)
 {
