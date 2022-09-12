@@ -7,12 +7,13 @@
  */
 int main(void)
 {
-	int nums;
+	int nums = 0;
 
-	for (nums = 0; nums < 10; nums++)
-	
-		printf"(%d", nums);
-	
+	while (nums < 10)
+	{
+		printf("%d", nums);
+		nums++;
+	}
 	printf("\n");
 	return (0);
 }
