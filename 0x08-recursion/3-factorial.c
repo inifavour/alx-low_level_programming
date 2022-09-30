@@ -9,16 +9,18 @@
  */
 int factorial(int n);
 {
-	if (n < 0)
-	{
-		return (-1);
-	}
-	else if (n < 2)
+
+	int count, fact = 1;
+
+	if (n == 0)
 	{
 		return (1);
 	}
 	else
 	{
-		return (n * factorial(n - 1));
+		for (count = 1; count <= n; count++)
+		{
+			fact = fact * count;
+		}
 	}
 }
