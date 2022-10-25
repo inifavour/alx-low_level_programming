@@ -10,17 +10,16 @@
 int factorial(int n);
 {
 
-	int count, fact = 1;
-
-	if (n == 0)
+	if (n < 0)
+	{
+		return (-1);
+	}
+	else if (n < 2)
 	{
 		return (1);
 	}
 	else
 	{
-		for (count = 1; count <= n; count++)
-		{
-			fact = fact * count;
-		}
+		return (n * factorial(n - 1));
 	}
 }
