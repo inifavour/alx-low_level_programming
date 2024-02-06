@@ -6,7 +6,8 @@
  *   * @min: minimum values
  *    * @max: maximum values
  *     * Return: pointer to new array
- *      */
+ *
+ */
 int *array_range(int min, int max)
 {
 	int *arr, i, m = min;
