@@ -1,14 +1,14 @@
 #include "main.h"
 
 /**
- * binary_to_int - converts from base 2 to decimal
+ * binary_to_uint - converts from base 2 to decimal
  * @b: points to a string of chars
  *
  * Return:  converted number or 0 on failure
  */
 unsigned int binary_to_uint(const char *b)
 {
-	unsigned res = 0;
+	unsigned int res = 0;
 
 	if (!b)
 		return (0);
@@ -21,5 +21,5 @@ unsigned int binary_to_uint(const char *b)
 			res += 1;
 		b++;
 	}
-	return res;
+	return (res);
 }
